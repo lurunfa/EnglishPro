@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn1_teacher_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/teacher_in" />
+
+        <Button
+            android:id="@+id/btn2_student_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/student_in" />
+        <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+         <Button android:id="@+id/btn_changIp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        /> 
+    </RelativeLayout>
+    </LinearLayout>
+  
+ 
+
+</LinearLayout>

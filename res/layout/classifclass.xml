@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2" >
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+         <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/show_beforeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	    
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+	    android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="原组号："
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/show_beforeGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"  />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"    
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="10dp">
+        
+		<TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="更改组号为："
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/edit_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:singleLine="true" 
+            android:hint="请输入组号" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/sure_changeGroup"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn"
+        android:text="确定" />
+
+</LinearLayout>
